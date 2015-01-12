@@ -15,3 +15,13 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+//= require bootstrap.min
+//= require easing.min
+//= require jquery-1.10.2.min
+//= require jquery.parallax.min
+//= require jquery.scrollTo-1.4.3.1-min
+//= require jquery.svg.js
+//= require jquery.svganim
+//= require modernizr.custom
+//= require page-transitions
+//= require startup-kit

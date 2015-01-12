@@ -15,8 +15,6 @@ end
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
-gem 'bootstrap-sass'
-gem 'devise'
 gem 'sendgrid'
 gem 'simple_form'
 group :development do
