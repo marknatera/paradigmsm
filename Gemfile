@@ -5,7 +5,6 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -48,3 +47,24 @@ end
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'bootstrap-sass'
+gem 'devise'
+gem 'sendgrid'
+gem 'simple_form'
+
+group :development do
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
