@@ -9,7 +9,7 @@ $(window).on('scroll', function(){
 });
 
 $(window).scroll(function() {
-    $(".hero-unit").css({
+    $("#logo-main").css({
     'opacity' : 1-(($(this).scrollTop())/300)
     });          
 });

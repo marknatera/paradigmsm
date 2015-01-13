@@ -8,7 +8,7 @@
 
                     <div class="nav-user">
                         <ul class="nav">
-                            <%= image_tag 'logo.png', class: 'nav-apply', style: 'width:200px;' %>
+                            <%# image_tag 'logo.png', class: 'nav-apply', style: 'width:200px;' %>
                         </ul>
                     </div>
             </div>
@@ -16,15 +16,14 @@
     </div>
 </header>
 <section class="header-16-sub home-content home-content-header" id="header-content">
+<div class="background"></div>
     <div id="h-16-pt-main" class="page-transitions pt-perspective">
         <div class="v-center pt-page pt-page-1 pt-page-current">
             <div>
                 <div class="background">&nbsp;</div>
                 <div class="container">
                     <div class="hero-unit">
-                        <a class="brand" href="#">
-                            <%= image_tag 'logo.png' %>
-                        </a>
+                            <%= image_tag 'logo.png', id: 'logo-main' %>
                     </div>
                 </div>                
             </div>
@@ -40,19 +39,20 @@
     </div>
 </section>
 
-<section class="content-32">
+<section class="content-32-home">
         <div class="container">
           <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <h2>PARADIGM SPORTS MANAGEMENT</h2>
-              <p class="lead">"Together Everyone Achieves More" - a mantra taught throughout sports and what we at Paradigm Sports Management emulate in our operations and management. Paradigm Sports Management breaks the conventional approach to offer a unique level of service that emulates our clients’ discipline, passion, and determination on their respective playing field.
+            <div class="col-sm-10 col-sm-offset-1">
+              <h1>PARADIGM SPORTS MANAGEMENT</h1>
+              <p>"Together Everyone Achieves More" - a mantra taught throughout sports and what we at Paradigm Sports Management emulate in our operations and management. Paradigm Sports Management breaks the conventional approach to offer a unique level of service that emulates our clients’ discipline, passion, and determination on their respective playing field.
               </p>
-
+              <button class="btn btn-inverse-home">Learn More</button>
             </div>
           </div>
         </div>
 </section>
-<section class="content-24 bg-midnight-blue">
+<section class="content-24">
+    <div class="background">&nbsp;</div>
 	<div class="container">
 	  <div class="row">
 	    <div class="col-sm-6 col-sm-offset-6">
@@ -60,16 +60,12 @@
 
 	        <div class="features-bodies">
 	          <div class="features-body active">
-	            <h3>SPORTS MANAGEMENT
-	            <br>SERVICES</h3>
-	            <ul>
-	            	<li>Soccer</li>
-	            	<li>Basketball</li>
-	            	<li>Basketball</li>
-	            	<li>MMA</li>
-	            	<li>Football</li>
-	            	<li>Sports Marketing</li>
-	            </ul>
+                <h3>SPORTS MANAGEMENT<br>SERVICES</h3>
+            	<hr>
+                <p>
+                - Soccer<br>- Basketball<br>- MMA<br>- Football<br>- Sports Marketing<br>
+                </p>
+                <button class="btn btn-inverse-service">Learn More</button>
 	          </div>
 	        </div>
 	      </div>
@@ -78,7 +74,7 @@
 	</div>
 </section>
 <!-- crew-3 -->
-<section class="crew-3">
+<%# section class="crew-3">
 <div class="container">
   <h3>NEW 2015 FAMILY MEMBERS</h3>
   <div class="members">
@@ -117,7 +113,7 @@
     </div>
   </div>
 <!--/.container-->
-</section>
+</section %>
 <section class="content-37">
 	<div class="container">
 		<div class="row">
@@ -129,18 +125,52 @@
 	</div>
 </section>
 <!-- content-23 -->
-<section class="content-23 bg-midnight-blue">
-<div class="holder v-center">
-  <div>
-    <div class="container">
-      <div class="hero-unit">
-        <h1>CHECK OUT OUR MEDIA</h1>
-        <button class="btn btn-inverse-home">Learn More</button>
-      </div>
+<section class="content-23 bg-midnight-blue custom-bg">
+        <div class="background">&nbsp;</div>
+    <div class="holder v-center">
+        <div>
+            <div class="container">
+                <div class="hero-unit">
+                    <h3>CHECK OUT OUR MEDIA</h3>
+                    <button class="btn btn-inverse-service">Gallery</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 </section>
+<script>
+    (function($) {
+        $('.content-24').each(function() {
+            if (! isMobile.any() ) {
+                $(this).parallax('50%', 0.3, true);
+            } else {
+                $(this).css('background-attachment', 'initial')
+            }
+        })
+    }(jQuery));
+</script>
+<script>
+    (function($) {
+        $('.content-23').each(function() {
+            if (! isMobile.any() ) {
+                $(this).parallax('50%', 0.3, true);
+            } else {
+                $(this).css('background-attachment', 'initial')
+            }
+        })
+    }(jQuery));
+</script>
+<script>
+    (function($) {
+        $('.header-16-sub').each(function() {
+            if (! isMobile.any() ) {
+                $(this).parallax('50%', 0.3, true);
+            } else {
+                $(this).css('background-attachment', 'initial')
+            }
+        })
+    }(jQuery));
+</script>
 <%#
 <header class="header-16">
     <div class="container">

@@ -4040,10 +4040,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover
     {
         display: block;vertical-align: baseline;
     }
-}.header-10-sub .background
+}
+.header-10-sub .background
 {opacity: 20;opacity: .2;
     background-image: url('../../../core/common-files/img/header/img-3.jpg');filter: alpha(opacity=2000);filter: alpha(opacity=20);
-}.header-10-sub .hero-unit
+}
+.header-10-sub .hero-unit
 {margin: 0;
     padding: 0;background-color: transparent;
 }.header-10-sub .hero-unit h1
@@ -8227,7 +8229,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover
     background: #000;
 }.header-16-sub .background
 {
-    background-image: url(image-path("home-main.jpg"));background-repeat: no-repeat;/*background-attachment: fixed;*/background-position: center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;
+    background-repeat: no-repeat;/*background-attachment: fixed;*/background-position: center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;
 }.header-16-sub .brand img
 {
     width: 320px;
@@ -8768,7 +8770,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover
     background-image: url('../../image//home/sweat.jpg');background-position: right 80% top;background-size: cover;
 }.home-content.home-content-club
 {
-    background-image: url('../../image//home/club.jpg');background-position: center center;background-size: cover;
+    background-image: url(image-path("services.jpg"));background-position: center center;background-size: cover;
 }.home-content.home-content-enhance
 {
     background-image: url('../../image//home/enhance.jpg');background-position: center center;background-size: cover;
