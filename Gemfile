@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.2.0'
+
 gem 'rails', '4.2.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -17,6 +18,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'sendgrid'
 gem 'simple_form'
+gem 'autoprefixer-rails'
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'

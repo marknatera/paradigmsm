@@ -25,3 +25,4 @@
 //= require modernizr.custom
 //= require page-transitions
 //= require startup-kit
+//= require custom

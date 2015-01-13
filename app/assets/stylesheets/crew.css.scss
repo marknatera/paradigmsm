@@ -927,9 +927,9 @@ section * {
   padding-bottom: 110px;
 }
 .crew-3 h3 {
-  margin: 0 0 20px;
+  margin: 0 0 60px;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
   font-weight: 300;
 }
 @media (max-width: 767px) {
@@ -1076,8 +1076,9 @@ section * {
 }
 .crew-3 .members .name {
   position: absolute;
-  left: 19px;
-  bottom: 19px;
+  width: 100%;
+  text-align: center;
+  bottom: 45%;
   color: #fff;
   font-size: 13px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

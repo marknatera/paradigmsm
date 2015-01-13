@@ -9,13 +9,14 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-
-    <header class="header-16">
-      <%= render 'layouts/navigation' %>
-    </header>
-  
+    <div class="page-wrapper">  
   
        <%= yield %>
-  
+
+       <footer>
+         <%= render 'layouts/footer' %>
+       </footer>
+
+    </div>
   </body>
 </html>

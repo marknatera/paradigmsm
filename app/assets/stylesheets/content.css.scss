@@ -4282,6 +4282,16 @@ section * {
   color: #7f8c8d;
   line-height: 36px;
 }
+.content-32 h2 {
+  font-size: 35px;
+  font-weight: normal;
+  color: #2c3e50;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 0 0 48px;
+}
+
 .content-32 h3 {
   font-size: 35px;
   font-weight: normal;
@@ -4919,7 +4929,7 @@ section * {
 }
 .content-37 .signup-form form input,
 .content-37 .signup-form form button {
-  float: left;
+  text-align: center;
   width: 23%;
   margin: 0 1%;
 }

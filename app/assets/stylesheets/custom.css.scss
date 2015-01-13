@@ -1,0 +1,20 @@
+.btn-inverse-home {
+	@extend .btn-inverse;
+	margin: 0 auto;
+	display: block;
+}
+
+
+// .background {
+// 	background-image:url(image-path("home-main.jpg"));
+// }
+
+// .content-23.custom-bg {
+// 	background-image: url(image-path("home-main1.jpg"));
+// 	background-position: 50% 50%;
+// 	background-repeat: no-repeat;
+// 	// background-attachment: fixed;
+// 	-webkit-background-size: cover;
+// 	-moz-background-size: cover;
+// 	background-size: cover;
+// }
