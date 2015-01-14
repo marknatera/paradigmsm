@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 //= require jquery.scrollTo-1.4.3.1-min
 //= require jquery-1.10.2.min
