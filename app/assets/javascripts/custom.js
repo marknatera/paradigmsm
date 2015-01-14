@@ -13,4 +13,3 @@ $(window).scroll(function() {
     'opacity' : 1-(($(this).scrollTop())/300)
     });          
 });
-
