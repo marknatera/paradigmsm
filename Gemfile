@@ -19,7 +19,6 @@ gem 'font-awesome-rails'
 gem 'sendgrid'
 gem 'simple_form'
 gem 'autoprefixer-rails'
-gem 'heroku'
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'

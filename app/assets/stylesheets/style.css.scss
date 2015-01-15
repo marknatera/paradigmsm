@@ -100,7 +100,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover
     color: #fff;
 }.delimiter
 {
-    margin-top: 200px;
+    margin-top: 150px;
 }.delimiter.line
 {
     margin-top: 150px;margin-bottom: 150px;border-top: 2px solid #ebedee;
@@ -4163,7 +4163,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover
 {
     .projects-2 .project-1 .container h1
     {
-        font-size: 25px;
+        font-size: 50px;
     }.projects-2 .project-1 .container p
     {
         font-size: 15px;
@@ -7771,7 +7771,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover
         width: 220px;
     }
 }.header-16-sub .hero-unit h1
-{font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 70px;font-weight: normal;
+{font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 70px;font-weight: 700;
 
     border: none;
 }.header-16-sub .scroll-btn
@@ -8458,12 +8458,21 @@ body.member .navbar.navbar-fixed-top
     .header-16 .navbar .navbar-toggle
     {
         right: 0 !important;
+        margin: 7px !important;
     }.header-16 .navbar .nav-user
     {
         left: 5px !important;
+
+        img {
+            width: 125px;
+            margin: 12px;
+        }
+
+
+
     }.header-16-sub .hero-unit h1
     {
-        font-size: 2em !important;
+        font-size: 50px !important;
     }.footer-14 .rights,
     .footer-14 .designed,
     .footer-14 .social-btns

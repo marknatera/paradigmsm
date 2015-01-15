@@ -35,14 +35,14 @@
 </section>
 <div class="container-fluid-about">
 	<div class="row">
-		<div class="col-md-4">
-			<%= image_tag 'team.jpg', class: 'img-responsive' %>
-		</div>
-		<div class="col-md-4">
-			<%= image_tag 'team.jpg', class: 'img-responsive' %>
-		</div>
-		<div class="col-md-4">
-			<%= image_tag 'team.jpg', class: 'img-responsive' %>
-		</div>
+		<div class="row-about"><%= image_tag 'team.jpg', class: 'img-responsive' %></div>
+		<div class="row-about"><%= image_tag 'team.jpg', class: 'img-responsive' %></div>
+
+		<!-- Add the extra clearfix for only the required viewport -->
+		<div class="clearfix visible-xs-block"></div>
+
+		<div class="row-about"><%= image_tag 'team.jpg', class: 'img-responsive' %></div>
+		<div class="row-about"><%= image_tag 'team.jpg', class: 'img-responsive' %></div>
 	</div>
 </div>
+<div class="delimiter"></div>
