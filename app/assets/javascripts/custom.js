@@ -16,7 +16,7 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
   $(window).scroll(function(){
-    if(document.body.scrollTop > 300)
+    if(document.body.scrollTop > 600)
       $('#header').fadeIn( "slow", function() { });
     else  
       $('#header').fadeOut( "slow", function() { });
