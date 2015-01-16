@@ -19,3 +19,16 @@
   }
 
 }
+
+.content-32-marketing {
+  @extend .content-32;
+  background: #fafafa !important;
+  p {
+    color: #838383;
+    font-size: larger;
+    text-align: left;
+  }
+  h3 {
+    color:#000000;font-size:40px;font-weight:700;
+  }
+}

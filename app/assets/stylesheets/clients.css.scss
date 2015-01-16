@@ -19,6 +19,18 @@
 
 }
 
-.footer-2 {
-  color: #ffffff !important;
+.content-32-clients {
+  @extend .content-32;
+  background: #fafafa !important;
+  p {
+    color: #838383;
+    font-size: larger;
+    text-align: left;
+  }
+  h3 {
+    color:#000000;font-size:20px;font-weight:700;
+  }
+  ul {
+    display:inline-block;
+  }
 }
