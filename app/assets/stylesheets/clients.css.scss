@@ -1,0 +1,24 @@
+.header-16-sub.clients{
+  .background {
+    background-image:url(image-path("clients-main.jpg")) !important;
+    opacity: .9;
+    background-color: #000000;
+    background-attachment: fixed;
+  }
+  h1 {
+    border: none;
+    font-size: 100px;
+    font-weight: 500;
+  }
+  h3 {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+}
+
+.footer-2 {
+  color: #ffffff !important;
+}
