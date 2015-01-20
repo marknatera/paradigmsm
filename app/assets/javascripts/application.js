@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require custom
 //= require jquery.scrollTo-1.4.3.1-min
 //= require jquery-1.10.2.min
 //= require bootstrap-sprockets
@@ -26,5 +27,4 @@
 //= require jquery.backgroundvideo.min
 //= require froogaloop.min
 //= require startup-kit
-//= require custom
-
+//= require isotope.pkgd.min
